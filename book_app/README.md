@@ -80,43 +80,43 @@ curl https://catalog.feedbooks.com/top.atom
 **Get all recent books by:**
 
 ```bash
-curl https://findmentor.network/recent.atom
+curl https://catalog.feedbooks.com/recent.atom
 ```
 
 **Get all awards category books by:**
 
 ```bash
-curl https://findmentor.network/awards.atom
+curl https://catalog.feedbooks.com/awards.atom
 ```
 
 **Get all sciFi category books by:**
 
 ```bash
-curl https://findmentor.network/top.atom?cat=FBFIC028000
+curl https://catalog.feedbooks.com/top.atom?cat=FBFIC028000
 ```
 
 **Get all actionAdventure category books by:**
 
 ```bash
-curl https://findmentor.network/top.atom?cat=FBFIC002000
+curl https://catalog.feedbooks.com/top.atom?cat=FBFIC002000
 ```
 
 **Get all mystery category books by:**
 
 ```bash
-curl https://findmentor.network/top.atom?cat=FBFIC022000
+curl https://catalog.feedbooks.com/top.atom?cat=FBFIC022000
 ```
 
 **Get all romance category books by:**
 
 ```bash
-curl https://findmentor.network/top.atom?cat=FBFIC027000
+curl https://catalog.feedbooks.com/top.atom?cat=FBFIC027000
 ```
 
 **Get all horror category books by:**
 
 ```bash
-curl https://findmentor.network/top.atom?cat=FBFIC015000
+curl https://catalog.feedbooks.com/top.atom?cat=FBFIC015000
 ```
 
 <!-- GETTING STARTED -->
