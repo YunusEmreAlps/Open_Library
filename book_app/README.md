@@ -224,4 +224,4 @@ Light              | Dark             | Light               | Dark
 
 Light              | Dark             | Light               | Light
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/YunusEmreAlps/Open_Library/blob/master/book_app/ss/17.png?raw=true)|![](https://github.com/YunusEmreAlps/Open_Library/blob/master/book_app/ss/18.png?raw=true)|![](https://github.com/YunusEmreAlps/Open_Library/blob/master/book_app/ss/19.png?raw=true)|![](https://github.com/YunusEmreAlps/Open_Library/blob/master/book_app/ss/20.png?raw=true)|
+![](https://github.com/YunusEmreAlps/Open_Library/blob/master/book_app/ss/17.png?raw=true)|![](https://github.com/YunusEmreAlps/Open_Library/blob/master/book_app/ss/18.png?raw=true)|![](https://github.com/YunusEmreAlps/Open_Library/blob/master/book_app/ss/20.png?raw=true)|![](https://github.com/YunusEmreAlps/Open_Library/blob/master/book_app/ss/21.png?raw=true)|
