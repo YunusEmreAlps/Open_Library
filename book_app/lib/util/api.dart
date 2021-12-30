@@ -1,8 +1,12 @@
+// Dart imports:
 import 'dart:convert';
 
+// Package imports:
 import 'package:dio/dio.dart';
-import 'package:book_app/models/category.dart';
 import 'package:xml2json/xml2json.dart';
+
+// Project imports:
+import 'package:book_app/models/category.dart';
 
 class Api {
   Dio dio = Dio();

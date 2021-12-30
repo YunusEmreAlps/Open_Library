@@ -1,18 +1,23 @@
-import 'package:book_app/components/book.dart';
-import 'package:book_app/components/book_list_item.dart';
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:flutter_svg/svg.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+
+// Project imports:
 import 'package:book_app/components/body_builder.dart';
+import 'package:book_app/components/book.dart';
 import 'package:book_app/components/book_card.dart';
+import 'package:book_app/components/book_list_item.dart';
 import 'package:book_app/components/loading_widget.dart';
 import 'package:book_app/models/category.dart';
+import 'package:book_app/size_config.dart';
 import 'package:book_app/util/api.dart';
 import 'package:book_app/util/router.dart';
 import 'package:book_app/view_models/home_provider.dart';
 import 'package:book_app/views/genre/genre.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:provider/provider.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:book_app/size_config.dart';
 
 class Explore extends StatefulWidget {
   @override

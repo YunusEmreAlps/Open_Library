@@ -1,17 +1,22 @@
 // HomePage
+
+// Flutter imports:
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+
+// Package imports:
 import 'package:provider/provider.dart';
+
+// Project imports:
+import 'package:book_app/components/body_builder.dart';
+import 'package:book_app/components/book_card.dart';
+import 'package:book_app/components/book_list_item.dart';
+import 'package:book_app/models/category.dart';
+import 'package:book_app/size_config.dart';
 import 'package:book_app/util/consts.dart';
 import 'package:book_app/util/router.dart';
-import 'package:book_app/models/category.dart';
-import 'package:book_app/views/genre/genre.dart';
-import 'package:book_app/components/book_card.dart';
-import 'package:book_app/components/body_builder.dart';
-import 'package:book_app/components/book_list_item.dart';
 import 'package:book_app/view_models/home_provider.dart';
-
-import 'package:book_app/size_config.dart';
+import 'package:book_app/views/genre/genre.dart';
 
 class Home extends StatefulWidget {
   @override

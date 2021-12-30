@@ -1,12 +1,17 @@
+// Dart imports:
 import 'dart:async';
 
+// Flutter imports:
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:fluttertoast/fluttertoast.dart';
+
+// Project imports:
 import 'package:book_app/util/api.dart';
 import 'package:book_app/util/enum/api_request_status.dart';
 import 'package:book_app/util/functions.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-
 import '../models/category.dart';
 
 class GenreProvider extends ChangeNotifier {

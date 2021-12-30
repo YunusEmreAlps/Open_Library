@@ -1,9 +1,16 @@
-// Splash Screen
+// Libraries
+
+// Dart imports:
 import 'dart:async';
+
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Project imports:
 import 'package:book_app/util/router.dart';
 import 'package:book_app/views/main_screen.dart';
 
+// Splash Screen
 class Splash extends StatefulWidget {
   @override
   _SplashState createState() => _SplashState();
@@ -11,7 +18,7 @@ class Splash extends StatefulWidget {
 
 class _SplashState extends State<Splash> {
   startTimeout() {
-    return new Timer(Duration(seconds: 16), handleTimeout);
+    return new Timer(Duration(seconds: 8), handleTimeout);
   }
 
   void handleTimeout() {
@@ -42,9 +49,8 @@ class _SplashState extends State<Splash> {
             width: double.infinity,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage("assets/images/A2.jpg",),
+                image: AssetImage("assets/images/splash_bg.jpg",),
                 fit: BoxFit.fill,
-                colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.2), BlendMode.dstATop),
               ),
             ),
           ),

@@ -1,12 +1,17 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:flutter_icons/flutter_icons.dart';
+import 'package:provider/provider.dart';
+
+// Project imports:
+import 'package:book_app/size_config.dart';
 import 'package:book_app/theme/theme_config.dart';
 import 'package:book_app/util/router.dart';
 import 'package:book_app/view_models/app_provider.dart';
 import 'package:book_app/views/downloads/downloads.dart';
 import 'package:book_app/views/favorites/favorites.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-import 'package:provider/provider.dart';
-import 'package:book_app/size_config.dart';
 
 class Profile extends StatefulWidget {
   @override

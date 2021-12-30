@@ -1,12 +1,18 @@
 // Main Screen
+
+// Flutter imports:
 import 'package:flutter/material.dart';
-import 'package:book_app/util/dialogs.dart';
+
+// Package imports:
 import 'package:flutter_icons/flutter_icons.dart';
 
-// Pages
-import 'package:book_app/views/home/home.dart';
+// Project imports:
+import 'package:book_app/util/dialogs.dart';
 import 'package:book_app/views/explore/explore.dart';
+import 'package:book_app/views/home/home.dart';
 import 'package:book_app/views/settings/settings.dart';
+
+// Pages
 
 class MainScreen extends StatefulWidget {
   @override

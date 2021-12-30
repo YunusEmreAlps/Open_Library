@@ -1,9 +1,15 @@
 // Libraries
-import 'package:flutter_svg/svg.dart';
+
+// Flutter imports:
 import 'package:flutter/material.dart';
-import 'package:book_app/size_config.dart';
+
+// Package imports:
+import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
+
+// Project imports:
 import 'package:book_app/models/NavItem.dart';
+import 'package:book_app/size_config.dart';
 
 class MyBottomNavBar extends StatelessWidget {
   const MyBottomNavBar({

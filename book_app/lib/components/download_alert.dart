@@ -1,5 +1,10 @@
-import 'package:dio/dio.dart';
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:dio/dio.dart';
+
+// Project imports:
 import 'package:book_app/components/custom_alert.dart';
 import 'package:book_app/util/consts.dart';
 

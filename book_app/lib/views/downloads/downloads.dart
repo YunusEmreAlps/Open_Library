@@ -1,14 +1,20 @@
+// Dart imports:
 import 'dart:convert';
 import 'dart:io';
 
+// Flutter imports:
+import 'package:flutter/material.dart';
+
+// Package imports:
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:epub_viewer/epub_viewer.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter_icons/flutter_icons.dart';
+import 'package:uuid/uuid.dart';
+
+// Project imports:
 import 'package:book_app/components/loading_widget.dart';
 import 'package:book_app/database/download_helper.dart';
 import 'package:book_app/database/locator_helper.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-import 'package:uuid/uuid.dart';
 
 class Downloads extends StatefulWidget {
   @override

@@ -1,16 +1,21 @@
+// Dart imports:
 import 'dart:io';
 
+// Flutter imports:
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:path_provider/path_provider.dart';
+import 'package:permission_handler/permission_handler.dart';
+
+// Project imports:
 import 'package:book_app/components/download_alert.dart';
 import 'package:book_app/database/download_helper.dart';
 import 'package:book_app/database/favorite_helper.dart';
 import 'package:book_app/models/category.dart';
 import 'package:book_app/util/api.dart';
 import 'package:book_app/util/consts.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:permission_handler/permission_handler.dart';
-
 import '../models/category.dart';
 
 class DetailsProvider extends ChangeNotifier {

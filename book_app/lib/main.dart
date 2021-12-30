@@ -1,16 +1,22 @@
 // Open Library
+
+// Flutter imports:
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:provider/provider.dart';
-import 'package:book_app/util/consts.dart';
+
+// Package imports:
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+
+// Project imports:
 import 'package:book_app/theme/theme_config.dart';
-import 'package:book_app/views/splash/splash.dart';
+import 'package:book_app/util/consts.dart';
 import 'package:book_app/view_models/app_provider.dart';
-import 'package:book_app/view_models/home_provider.dart';
-import 'package:book_app/view_models/genre_provider.dart';
 import 'package:book_app/view_models/details_provider.dart';
 import 'package:book_app/view_models/favorites_provider.dart';
+import 'package:book_app/view_models/genre_provider.dart';
+import 'package:book_app/view_models/home_provider.dart';
+import 'package:book_app/views/splash/splash.dart';
 
 void main() {
   runApp(

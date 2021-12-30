@@ -1,4 +1,7 @@
+// Flutter imports:
 import 'package:flutter/foundation.dart';
+
+// Project imports:
 import 'package:book_app/database/favorite_helper.dart';
 
 class FavoritesProvider extends ChangeNotifier {

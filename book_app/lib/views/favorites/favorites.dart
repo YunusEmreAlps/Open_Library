@@ -1,9 +1,14 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+
+// Package imports:
+import 'package:provider/provider.dart';
+
+// Project imports:
 import 'package:book_app/components/book.dart';
 import 'package:book_app/models/category.dart';
 import 'package:book_app/view_models/favorites_provider.dart';
-import 'package:provider/provider.dart';
 
 class Favorites extends StatefulWidget {
   @override

@@ -1,5 +1,8 @@
+// Flutter imports:
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+
+// Project imports:
 import 'package:book_app/models/category.dart';
 import 'package:book_app/util/api.dart';
 import 'package:book_app/util/enum/api_request_status.dart';

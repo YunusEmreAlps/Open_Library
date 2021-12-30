@@ -1,13 +1,19 @@
 // Libraries
+
+// Flutter imports:
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:provider/provider.dart';
+
+// Package imports:
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:book_app/models/category.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+
+// Project imports:
 import 'package:book_app/components/body_builder.dart';
 import 'package:book_app/components/book_list_item.dart';
 import 'package:book_app/components/loading_widget.dart';
+import 'package:book_app/models/category.dart';
 import 'package:book_app/view_models/genre_provider.dart';
 
 class Genre extends StatefulWidget {

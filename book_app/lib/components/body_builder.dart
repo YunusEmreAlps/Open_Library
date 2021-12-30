@@ -1,4 +1,7 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Project imports:
 import 'package:book_app/components/error_widget.dart';
 import 'package:book_app/components/loading_widget.dart';
 import 'package:book_app/util/enum/api_request_status.dart';

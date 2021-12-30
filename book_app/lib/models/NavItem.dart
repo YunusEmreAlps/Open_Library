@@ -1,6 +1,10 @@
 // Libraries
-import 'package:book_app/views/main_screen.dart';
+
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Project imports:
+import 'package:book_app/views/main_screen.dart';
 
 class NavItem {
   final int id;

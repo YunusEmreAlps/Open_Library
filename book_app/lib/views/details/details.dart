@@ -1,18 +1,24 @@
+// Dart imports:
 import 'dart:convert';
 
+// Flutter imports:
+import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
+
+// Package imports:
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:epub_viewer/epub_viewer.dart';
 import 'package:esys_flutter_share/esys_flutter_share.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
+import 'package:flutter_icons/flutter_icons.dart';
+import 'package:provider/provider.dart';
+
+// Project imports:
 import 'package:book_app/components/book_list_item.dart';
 import 'package:book_app/components/description_text.dart';
 import 'package:book_app/components/loading_widget.dart';
 import 'package:book_app/database/locator_helper.dart';
 import 'package:book_app/models/category.dart';
 import 'package:book_app/view_models/details_provider.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-import 'package:provider/provider.dart';
 
 class Details extends StatefulWidget {
   final Entry entry;
